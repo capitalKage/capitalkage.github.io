@@ -1,0 +1,41 @@
+*{
+    font-family: Helvetica;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color:khaki;
+    text-align: center;
+    top: 80px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+a{
+    font-weight: bold;
+    color: blue;
+}
+
+#brushes{
+    background-color: mediumspringgreen;
+}
+
+#frames{
+    background-color: lightcoral;
+}
+
+#paint{
+    background-color: skyblue;
+}
+
+#image{
+    background-image: url("C:\Users\kyler\HTMLProjects\DasmotosProject\resources\images\pattern.jpeg");
+    background-color: transparent;
+    z-index: 1;
+    background-position: top;
+}
