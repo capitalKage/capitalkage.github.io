@@ -6,8 +6,9 @@ h1 {
     font-size: 100px;
     font-weight: bold;
     color:khaki;
-    text-align: center;
-    top: 80px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
 }
 
 h2{
@@ -33,9 +34,12 @@ a{
     background-color: skyblue;
 }
 
+.container{
+    text-align: center;
+}
+
 #image{
-    background-image: url("C:\Users\kyler\HTMLProjects\DasmotosProject\resources\images\pattern.jpeg");
-    background-color: transparent;
-    z-index: 1;
-    background-position: top;
+    height: 300px;
+    width: 100%;
+    
 }
